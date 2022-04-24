@@ -1,4 +1,5 @@
 [ActivityManager][Global Shortcuts]
+switch-to-activity-2aae0e38-0d8d-4e26-a315-cd44c274b0ef=
 switch-to-activity-8f2ffdd7-d156-4c1d-8744-9562dce51d43=
 
 [Alacritty.desktop][Global Shortcuts]
@@ -7,13 +8,14 @@ _launch=
 
 [KDE Keyboard Layout Switcher][Global Shortcuts]
 Switch keyboard layout to English (US)=
+Switch keyboard layout to Español=
 Switch keyboard layout to Spanish=
 Switch to Next Keyboard Layout=Ctrl+Alt+K
 
 [StandardShortcuts]
 AboutApp=
 AboutKDE=
-Activate Next Tab=Ctrl+PgDown; Ctrl+]
+Activate Next Tab=Ctrl+]; Ctrl+PgDown
 Activate Previous Tab=Ctrl+[; Ctrl+PgUp
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
@@ -22,12 +24,12 @@ BackwardWord=Ctrl+Left
 Begin=Ctrl+Home
 BeginningOfLine=Home
 Clear=
-Close=Ctrl+W; Ctrl+Esc
+Close=Ctrl+Esc; Ctrl+W
 ConfigureNotifications=
 ConfigureToolbars=
-Copy=Ctrl+C; Ctrl+Ins
+Copy=Ctrl+Ins; Ctrl+C
 CreateFolder=F10
-Cut=Ctrl+X; Shift+Del
+Cut=Shift+Del; Ctrl+X
 DeleteFile=Shift+Del
 DeleteWordBack=Ctrl+Backspace
 DeleteWordForward=Ctrl+Del
@@ -51,7 +53,7 @@ Goto=
 GotoLine=Ctrl+G
 GotoPage=
 Help=F1
-Home=Home Page; Alt+Home
+Home=Alt+Home; Home Page
 KeyBindings=Ctrl+Alt+,
 Mail=
 MoveToTrash=Del
@@ -69,7 +71,7 @@ PrintPreview=
 Prior=PgUp
 Quit=Ctrl+Q
 Redo=Ctrl+Shift+Z
-Reload=Refresh; F5
+Reload=F5; Refresh
 RenameFile=F2
 Replace=Ctrl+R
 ReportBug=
@@ -93,7 +95,7 @@ Undo=Ctrl+Z
 Up=Alt+Up
 WhatsThis=Shift+F1
 Zoom=
-ZoomIn=Ctrl+=; Ctrl++
+ZoomIn=Ctrl++; Ctrl+=
 ZoomOut=Ctrl+-
 
 [brave-browser.desktop][Global Shortcuts]
@@ -111,7 +113,7 @@ Toggle Touchpad=Touchpad Toggle
 
 [kded5][Global Shortcuts]
 Show System Activity=Ctrl+Esc
-display=Meta+P; Display
+display=Display; Meta+P
 
 [khotkeys][Global Shortcuts]
 {2ebf1e25-b749-42d6-a905-f3351d695d7c}=Ctrl+Alt+T
@@ -136,7 +138,7 @@ Reboot Without Confirmation=
 Activate Window Demanding Attention=Ctrl+Alt+A
 Decrease Opacity=
 Expose=Ctrl+F9
-ExposeAll=Launch (C); Ctrl+F10
+ExposeAll=Ctrl+F10; Launch (C)
 ExposeClass=Ctrl+F7
 Increase Opacity=
 Invert Screen Colors=
@@ -147,8 +149,8 @@ Krohnkite: Down/Next=
 Krohnkite: Float=Meta+F
 Krohnkite: Float All=Meta+Shift+F
 Krohnkite: Floating Layout=
-Krohnkite: Grow Height=Meta+Alt+J
-Krohnkite: Grow Width=Meta+Alt+L; Meta+Alt+Right
+Krohnkite: Grow Height=Meta+Alt+Up
+Krohnkite: Grow Width=Meta+Alt+Right
 Krohnkite: Increase=Meta+I
 Krohnkite: Left=
 Krohnkite: Monocle Layout=
@@ -160,9 +162,11 @@ Krohnkite: Next Layout=Meta+\\
 Krohnkite: Previous Layout=Meta+|
 Krohnkite: Quarter Layout=
 Krohnkite: Right=
+Krohnkite: Rotate=Meta+R
+Krohnkite: Rotate Part=Meta+Shift+R
 Krohnkite: Set master=Meta+Space
-Krohnkite: Shrink Height=Meta+Alt+K; Meta+Alt+Down
-Krohnkite: Shrink Width=Meta+Alt+Left; Meta+Alt+H
+Krohnkite: Shrink Height=Meta+Alt+Down
+Krohnkite: Shrink Width=Meta+Alt+Left
 Krohnkite: Spread Layout=
 Krohnkite: Stair Layout=
 Krohnkite: Three Column Layout=
@@ -182,10 +186,10 @@ Switch One Desktop Down=
 Switch One Desktop Up=
 Switch One Desktop to the Left=
 Switch One Desktop to the Right=
-Switch Window Down=Meta+K; Meta+Down
-Switch Window Left=Meta+H; Meta+Left
-Switch Window Right=Meta+L; Meta+Right
-Switch Window Up=Meta+Up; Meta+J
+Switch Window Down=Meta+Down
+Switch Window Left=Meta+Left
+Switch Window Right=Meta+Right
+Switch Window Up=Meta+Up
 Switch to Desktop 1=Meta+1
 Switch to Desktop 10=
 Switch to Desktop 11=
@@ -234,7 +238,7 @@ Walk Through Windows of Current Application Alternative=
 Walk Through Windows of Current Application Alternative (Reverse)=
 Window Above Other Windows=
 Window Below Other Windows=
-Window Close=Meta+Q
+Window Close=Meta+Q; Alt+F4
 Window Fullscreen=
 Window Grow Horizontal=
 Window Grow Vertical=
@@ -244,6 +248,7 @@ Window Maximize Horizontal=
 Window Maximize Vertical=
 Window Minimize=Meta+PgDown
 Window Move=
+Window Move Center=
 Window No Border=
 Window On All Desktops=
 Window One Desktop Down=Meta+Ctrl+Shift+Down
@@ -279,9 +284,9 @@ Window to Desktop 16=
 Window to Desktop 17=
 Window to Desktop 18=
 Window to Desktop 19=
-Window to Desktop 2=Meta+@
+Window to Desktop 2=Meta+"
 Window to Desktop 20=
-Window to Desktop 3=Meta+#
+Window to Desktop 3=Meta+·
 Window to Desktop 4=Meta+$
 Window to Desktop 5=Meta+%
 Window to Desktop 6=
@@ -289,9 +294,9 @@ Window to Desktop 7=
 Window to Desktop 8=
 Window to Desktop 9=
 Window to Next Desktop=
-Window to Next Screen=Meta+Ctrl+Right; Meta+Ctrl+L
+Window to Next Screen=Meta+Ctrl+L; Meta+Ctrl+Right
 Window to Previous Desktop=
-Window to Previous Screen=Meta+Ctrl+H; Meta+Ctrl+Left
+Window to Previous Screen=Meta+Ctrl+Left; Meta+Ctrl+H
 Window to Screen 0=
 Window to Screen 1=
 Window to Screen 2=
@@ -368,9 +373,14 @@ stopmedia=Media Stop
 [org.kde.dolphin.desktop][Global Shortcuts]
 _launch=Meta+E
 
+[org.kde.konsole.desktop][Global Shortcuts]
+NewTab=
+NewWindow=
+_launch=Ctrl+Alt+T
+
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Search; Alt+F2; Alt+Space
+_launch=Alt+Space; Alt+F2; Search
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
 _launch=Meta+.
@@ -380,7 +390,7 @@ ActiveWindowScreenShot=Meta+Print
 CurrentMonitorScreenShot=
 FullScreenScreenShot=Shift+Print
 OpenWithoutScreenshot=
-RectangularRegionScreenShot=Meta+Shift+Print
+RectangularRegionScreenShot=Meta+Shift+Print; Meta+Shift+S
 WindowUnderCursorScreenShot=Meta+Ctrl+Print
 _launch=Print
 
