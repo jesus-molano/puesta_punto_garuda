@@ -30,7 +30,7 @@ yay -S ttf-cascadia-code
 yay -S nodejs npm
 yay -S visual-studio-code-bin
 yay -S google-chrome
-yay -S runjs
+yay -S runjs-bin
 yay -S spotify
 yay -S figma-linux
 yay -S stacer
