@@ -102,7 +102,11 @@ font.generate(argv[1][0:-3] + "woff2");
 font.close();
 ```
 
-
+## Convert Images to Webp (PYTHON)
+```bash
+pip install whatchdog
+```
+Utilizar el archivo convert-webp.py
 
 # Fixing Errors
 Graphics Error: Alt+Shift+F12
