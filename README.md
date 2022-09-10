@@ -34,7 +34,8 @@ yay -S runjs-bin
 yay -S spotify
 yay -S figma-linux
 yay -S stacer
-yay -s github-cli
+yay -S github-cli
+yay -S ranger
 ```
 ## Delete neofetch line en fish
 ```fish
