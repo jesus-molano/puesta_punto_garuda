@@ -1,6 +1,5 @@
 [ActivityManager][Global Shortcuts]
-switch-to-activity-2aae0e38-0d8d-4e26-a315-cd44c274b0ef=
-switch-to-activity-8f2ffdd7-d156-4c1d-8744-9562dce51d43=
+switch-to-activity-422468ee-ff88-4edd-ba47-9a1d773a64b3=
 
 [Alacritty.desktop][Global Shortcuts]
 New=Meta+Return
@@ -8,7 +7,6 @@ _launch=
 
 [KDE Keyboard Layout Switcher][Global Shortcuts]
 Switch keyboard layout to English (US)=
-Switch keyboard layout to Español=
 Switch keyboard layout to Spanish=
 Switch to Next Keyboard Layout=Ctrl+Alt+K
 
@@ -16,7 +14,7 @@ Switch to Next Keyboard Layout=Ctrl+Alt+K
 AboutApp=
 AboutKDE=
 Activate Next Tab=Ctrl+]; Ctrl+PgDown
-Activate Previous Tab=Ctrl+[; Ctrl+PgUp
+Activate Previous Tab=Ctrl+PgUp; Ctrl+[
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
 Back=Alt+Left; Back
@@ -27,7 +25,7 @@ Clear=
 Close=Ctrl+Esc; Ctrl+W
 ConfigureNotifications=
 ConfigureToolbars=
-Copy=Ctrl+Ins; Ctrl+C
+Copy=Ctrl+C; Ctrl+Ins
 CreateFolder=F10
 Cut=Shift+Del; Ctrl+X
 DeleteFile=Shift+Del
@@ -46,14 +44,14 @@ FindPrev=Shift+F3
 FitToHeight=
 FitToPage=
 FitToWidth=
-Forward=Forward; Alt+Right
+Forward=Alt+Right; Forward
 ForwardWord=Ctrl+Right
 FullScreen=Ctrl+Shift+F
 Goto=
 GotoLine=Ctrl+G
 GotoPage=
 Help=F1
-Home=Alt+Home; Home Page
+Home=Home Page; Alt+Home
 KeyBindings=Ctrl+Alt+,
 Mail=
 MoveToTrash=Del
@@ -62,7 +60,7 @@ Next=PgDown
 NextCompletion=Ctrl+Down
 Open=Ctrl+O
 OpenRecent=
-Paste=Shift+Ins; Ctrl+V
+Paste=Ctrl+V; Shift+Ins
 Paste Selection=Ctrl+Shift+Ins
 Preferences=Ctrl+Shift+,
 PrevCompletion=Ctrl+Up
@@ -82,7 +80,7 @@ Save=Ctrl+S
 SaveAs=Ctrl+Shift+S
 SaveOptions=
 SelectAll=Ctrl+A
-ShowHideHiddenFiles=Alt+.; Ctrl+H
+ShowHideHiddenFiles=Ctrl+H; Alt+.
 ShowMenubar=Ctrl+M
 ShowStatusbar=
 ShowToolbar=
@@ -113,10 +111,9 @@ Toggle Touchpad=Touchpad Toggle
 
 [kded5][Global Shortcuts]
 Show System Activity=Ctrl+Esc
-display=Display; Meta+P
+display=Meta+P; Display
 
 [khotkeys][Global Shortcuts]
-{2ebf1e25-b749-42d6-a905-f3351d695d7c}=Ctrl+Alt+T
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=
 
 [kmix][Global Shortcuts]
@@ -124,7 +121,7 @@ decrease_microphone_volume=Microphone Volume Down
 decrease_volume=Volume Down
 increase_microphone_volume=Microphone Volume Up
 increase_volume=Volume Up
-mic_mute=Microphone Mute; Meta+Volume Mute
+mic_mute=Meta+Volume Mute; Microphone Mute
 mute=Volume Mute
 
 [ksmserver][Global Shortcuts]
@@ -149,8 +146,8 @@ Krohnkite: Down/Next=
 Krohnkite: Float=Meta+F
 Krohnkite: Float All=Meta+Shift+F
 Krohnkite: Floating Layout=
-Krohnkite: Grow Height=Meta+Alt+Up
-Krohnkite: Grow Width=Meta+Alt+Right
+Krohnkite: Grow Height=
+Krohnkite: Grow Width=
 Krohnkite: Increase=Meta+I
 Krohnkite: Left=
 Krohnkite: Monocle Layout=
@@ -165,8 +162,8 @@ Krohnkite: Right=
 Krohnkite: Rotate=Meta+R
 Krohnkite: Rotate Part=Meta+Shift+R
 Krohnkite: Set master=Meta+Space
-Krohnkite: Shrink Height=Meta+Alt+Down
-Krohnkite: Shrink Width=Meta+Alt+Left
+Krohnkite: Shrink Height=
+Krohnkite: Shrink Width=
 Krohnkite: Spread Layout=
 Krohnkite: Stair Layout=
 Krohnkite: Three Column Layout=
@@ -178,6 +175,7 @@ MoveZoomDown=
 MoveZoomLeft=
 MoveZoomRight=
 MoveZoomUp=
+Overview=
 Setup Window Shortcut=
 Show Desktop=
 ShowDesktopGrid=Ctrl+F8
@@ -186,10 +184,10 @@ Switch One Desktop Down=
 Switch One Desktop Up=
 Switch One Desktop to the Left=
 Switch One Desktop to the Right=
-Switch Window Down=Meta+Down
-Switch Window Left=Meta+Left
-Switch Window Right=Meta+Right
-Switch Window Up=Meta+Up
+Switch Window Down=Meta+J; Meta+Down
+Switch Window Left=Meta+H; Meta+Left
+Switch Window Right=Meta+L; Meta+Right
+Switch Window Up=Meta+Up; Meta+K
 Switch to Desktop 1=Meta+1
 Switch to Desktop 10=
 Switch to Desktop 11=
@@ -296,7 +294,7 @@ Window to Desktop 9=
 Window to Next Desktop=
 Window to Next Screen=Meta+Ctrl+L; Meta+Ctrl+Right
 Window to Previous Desktop=
-Window to Previous Screen=Meta+Ctrl+Left; Meta+Ctrl+H
+Window to Previous Screen=Meta+Ctrl+H; Meta+Ctrl+Left
 Window to Screen 0=
 Window to Screen 1=
 Window to Screen 2=
@@ -308,57 +306,6 @@ Window to Screen 7=
 view_actual_size=
 view_zoom_in=Meta+=
 view_zoom_out=Meta+-
-
-[lattedock][Global Shortcuts]
-activate entry 1=
-activate entry 10=
-activate entry 11=
-activate entry 12=
-activate entry 13=
-activate entry 14=
-activate entry 15=
-activate entry 16=
-activate entry 17=
-activate entry 18=
-activate entry 19=
-activate entry 2=
-activate entry 3=
-activate entry 4=
-activate entry 5=
-activate entry 6=
-activate entry 7=
-activate entry 8=
-activate entry 9=
-clear-history=
-clipboard_action=
-cycleNextAction=
-cyclePrevAction=
-edit_clipboard=
-new instance for entry 1=
-new instance for entry 10=
-new instance for entry 11=
-new instance for entry 12=
-new instance for entry 13=
-new instance for entry 14=
-new instance for entry 15=
-new instance for entry 16=
-new instance for entry 17=
-new instance for entry 18=
-new instance for entry 19=
-new instance for entry 2=
-new instance for entry 3=
-new instance for entry 4=
-new instance for entry 5=
-new instance for entry 6=
-new instance for entry 7=
-new instance for entry 8=
-new instance for entry 9=
-repeat_action=
-show latte global settings=
-show latte view=
-show view settings=
-show-barcode=
-show-on-mouse-pos=
 
 [mediacontrol][Global Shortcuts]
 mediavolumedown=
@@ -373,11 +320,6 @@ stopmedia=Media Stop
 [org.kde.dolphin.desktop][Global Shortcuts]
 _launch=Meta+E
 
-[org.kde.konsole.desktop][Global Shortcuts]
-NewTab=
-NewWindow=
-_launch=Ctrl+Alt+T
-
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
 _launch=Alt+Space; Alt+F2; Search
@@ -390,7 +332,7 @@ ActiveWindowScreenShot=Meta+Print
 CurrentMonitorScreenShot=
 FullScreenScreenShot=Shift+Print
 OpenWithoutScreenshot=
-RectangularRegionScreenShot=Meta+Shift+Print; Meta+Shift+S
+RectangularRegionScreenShot=Meta+Shift+S; Meta+Shift+Print
 WindowUnderCursorScreenShot=Meta+Ctrl+Print
 _launch=Print
 
@@ -417,10 +359,19 @@ activate task manager entry 6=
 activate task manager entry 7=
 activate task manager entry 8=
 activate task manager entry 9=
+clear-history=
+clipboard_action=Meta+Ctrl+X
+cycle-panels=Meta+Alt+P
+cycleNextAction=
+cyclePrevAction=
+edit_clipboard=
 manage activities=
 next activity=Meta+Tab
 previous activity=Meta+Shift+Tab
+repeat_action=Meta+Ctrl+R
 show dashboard=Ctrl+F12
+show-barcode=
+show-on-mouse-pos=Meta+V
 stop current activity=Meta+S
 switch to next activity=
 switch to previous activity=
