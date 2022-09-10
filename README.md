@@ -88,6 +88,20 @@ cyan: '0x56b6c2'
 white: '0xffffff'
 ```
 
+## Swap ESC with CapsLock
+```fish
+sudo nvim  /etc/X11/xorg.conf.d/00-keyboard.conf
+```
+
+```conf
+Section "InputClass"
+        Identifier "system-keyboard"
+        MatchIsKeyboard "on"
+        Option "XkbLayout" "us"
+        Option "XkbOptions" "caps:swapescape"
+EndSection
+```
+
 ## FontForge Python
 alias ttfcompress =  ‘/usr/local/bin/ttfcompress.py’
 
