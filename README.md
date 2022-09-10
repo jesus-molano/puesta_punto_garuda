@@ -118,7 +118,7 @@ font.close();
 
 ## Convert Images to Webp (PYTHON)
 ```bash
-pip install whatchdog
+pip install watchdog
 ```
 Utilizar el archivo convert-webp.py
 
