@@ -1,4 +1,14 @@
 # Puesta a punto de Garuda
+## Generate ssh key for github
+```fish
+ssh-keygen -t ed25519 -C "jessumolano@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+```
+Add ssh key to github
+```fish
+cat ~/.ssh/id_ed25519.pub
+```
 ## Install Drivers
 Mirror List: /etc/pacman.d/chaotic-mirrorlist
 ```fish
