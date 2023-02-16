@@ -55,8 +55,7 @@ code .config/fish/config.fish
 ## Habilitar Khronkite config(Instalar antes)
 ```fish
 mkdir -p ~/.local/share/kservices5/
-ln -s ~/.local/share/kwin/scripts/krohnkite/metadata.desktop
-~/.local/share/kservices5/krohnkite.desktop
+ln -s ~/.local/share/kwin/scripts/krohnkite/metadata.desktop ~/.local/share/kservices5/krohnkite.desktop
 ```
 ## Borrar Guest User
 ```fish
@@ -100,13 +99,13 @@ colors:
 ## NVM in fish
 - Instalamos nvm [(comprobar versión)](https://github.com/nvm-sh/nvm)
 ```fish
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ```
 - Instalamos oh-my-fish
 ```fish
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 ```
-- Instalamos Bass
+- Instalamos plugin de omf
 ```fish
 omf install nvm 
 ```
