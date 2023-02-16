@@ -37,6 +37,7 @@ sudo pacman -S steam
 sudo pacman -S heroic-games-launcher-bin
 sudo pacman -S gnome-keyring
 yay -S ttf-cascadia-code
+yay -S otf-cascadia-code-nerd
 yay -S nodejs npm
 yay -S visual-studio-code-bin
 yay -S google-chrome
@@ -107,13 +108,7 @@ curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install 
 ```
 - Instalamos Bass
 ```fish
-omf install bass
-```
-- Añadimos una función a fish en ~/.config/fish/functions/nvm.fish
-```
-function nvm
-    bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
-end
+omf install nvm 
 ```
 - Instalamos ultima version de node
 ```fish
