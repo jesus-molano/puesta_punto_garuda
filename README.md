@@ -97,35 +97,27 @@ colors:
 ```
 
 ## NVM in fish
-- Instalamos nvm [(comprobar versión)](https://github.com/nvm-sh/nvm)
+- Instalamos fisher
 ```fish
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 ```
-- Instalamos oh-my-fish
+- Instalamos nvm con fisher
 ```fish
-curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+fisher install jorgebucaran/nvm.fish
 ```
-- Instalamos plugin de omf
-```fish
-omf install nvm 
-```
-- Instalamos ultima version de node
+- Instalamos ultima version de node o la lts
 ```fish
 nvm install node
+nvm install lts
 ```
 
 ## Swap ESC with CapsLock
 ```fish
-sudo nvim  /etc/X11/xorg.conf.d/00-keyboard.conf
+sudo nvim ~/.bashrc 
 ```
 
 ```conf
-Section "InputClass"
-        Identifier "system-keyboard"
-        MatchIsKeyboard "on"
-        Option "XkbLayout" "us"
-        Option "XkbOptions" "caps:swapescape"
-EndSection
+setxkbmap -option caps:escape
 ```
 
 ## FontForge Python
