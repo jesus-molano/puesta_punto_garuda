@@ -1,6 +1,7 @@
 [ActivityManager][Global Shortcuts]
 switch-to-activity-422468ee-ff88-4edd-ba47-9a1d773a64b3=
 switch-to-activity-6bc6ae7f-295e-4283-99e7-fc9f7f7264f7=
+switch-to-activity-a430cffe-6b15-4d03-9586-e85cd859590c=
 
 [Alacritty.desktop][Global Shortcuts]
 New=Meta+Return
@@ -14,7 +15,7 @@ Switch to Next Keyboard Layout=Ctrl+Alt+K
 [StandardShortcuts]
 AboutApp=
 AboutKDE=
-Activate Next Tab=Ctrl+PgDown; Ctrl+]
+Activate Next Tab=Ctrl+]; Ctrl+PgDown
 Activate Previous Tab=Ctrl+PgUp; Ctrl+[
 ActualSize=Ctrl+0
 AddBookmark=Ctrl+B
@@ -23,12 +24,12 @@ BackwardWord=Ctrl+Left
 Begin=Ctrl+Home
 BeginningOfLine=Home
 Clear=
-Close=Ctrl+W; Ctrl+Esc
+Close=Ctrl+Esc; Ctrl+W
 ConfigureNotifications=
 ConfigureToolbars=
-Copy=Ctrl+C; Ctrl+Ins
+Copy=Ctrl+Ins; Ctrl+C
 CreateFolder=F10
-Cut=Shift+Del; Ctrl+X
+Cut=Ctrl+X; Shift+Del
 DeleteFile=Shift+Del
 DeleteWordBack=Ctrl+Backspace
 DeleteWordForward=Ctrl+Del
@@ -70,7 +71,7 @@ PrintPreview=
 Prior=PgUp
 Quit=Ctrl+Q
 Redo=Ctrl+Shift+Z
-Reload=F5; Refresh
+Reload=Refresh; F5
 RenameFile=F2
 Replace=Ctrl+R
 ReportBug=
@@ -81,7 +82,7 @@ Save=Ctrl+S
 SaveAs=Ctrl+Shift+S
 SaveOptions=
 SelectAll=Ctrl+A
-ShowHideHiddenFiles=Alt+.; Ctrl+H
+ShowHideHiddenFiles=Ctrl+H; Alt+.
 ShowMenubar=Ctrl+M
 ShowStatusbar=
 ShowToolbar=
@@ -94,7 +95,7 @@ Undo=Ctrl+Z
 Up=Alt+Up
 WhatsThis=Shift+F1
 Zoom=
-ZoomIn=Ctrl++; Ctrl+=
+ZoomIn=Ctrl+=; Ctrl++
 ZoomOut=Ctrl+-
 
 [brave-browser.desktop][Global Shortcuts]
@@ -112,7 +113,7 @@ Toggle Touchpad=Touchpad Toggle
 
 [kded5][Global Shortcuts]
 Show System Activity=Ctrl+Esc
-display=Meta+P; Display
+display=Display; Meta+P
 
 [khotkeys][Global Shortcuts]
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=
@@ -122,7 +123,7 @@ decrease_microphone_volume=Microphone Volume Down
 decrease_volume=Volume Down
 increase_microphone_volume=Microphone Volume Up
 increase_volume=Volume Up
-mic_mute=Microphone Mute; Meta+Volume Mute
+mic_mute=Meta+Volume Mute; Microphone Mute
 mute=Volume Mute
 
 [ksmserver][Global Shortcuts]
@@ -137,7 +138,7 @@ Activate Window Demanding Attention=Ctrl+Alt+A
 Decrease Opacity=
 Edit Tiles=
 Expose=Ctrl+F9
-ExposeAll=Ctrl+F10; Launch (C)
+ExposeAll=Launch (C); Ctrl+F10
 ExposeClass=Ctrl+F7
 ExposeClassCurrentDesktop=
 Increase Opacity=
@@ -149,7 +150,7 @@ Krohnkite: Down/Next=
 Krohnkite: Float=Meta+F
 Krohnkite: Float All=Meta+Shift+F
 Krohnkite: Floating Layout=
-Krohnkite: Grow Height=Meta+Shift+J; Meta+Shift+Down
+Krohnkite: Grow Height=Meta+Shift+Down; Meta+Shift+J
 Krohnkite: Grow Width=Meta+Shift+L; Meta+Shift+Right
 Krohnkite: Increase=Meta+I
 Krohnkite: Left=
@@ -165,7 +166,7 @@ Krohnkite: Right=
 Krohnkite: Rotate=Meta+R
 Krohnkite: Rotate Part=Meta+Shift+R
 Krohnkite: Set master=Meta+Space
-Krohnkite: Shrink Height=Meta+Shift+K; Meta+Shift+Up
+Krohnkite: Shrink Height=Meta+Shift+Up; Meta+Shift+K
 Krohnkite: Shrink Width=Meta+Shift+Left; Meta+Shift+H
 Krohnkite: Spread Layout=
 Krohnkite: Stair Layout=
@@ -187,10 +188,10 @@ Switch One Desktop Down=
 Switch One Desktop Up=
 Switch One Desktop to the Left=
 Switch One Desktop to the Right=
-Switch Window Down=Meta+J; Meta+Down
-Switch Window Left=Meta+H; Meta+Left
-Switch Window Right=Meta+Right; Meta+L
-Switch Window Up=Meta+Up; Meta+K
+Switch Window Down=Meta+Down; Meta+J
+Switch Window Left=Meta+Left; Meta+H
+Switch Window Right=Meta+L; Meta+Right
+Switch Window Up=Meta+K; Meta+Up
 Switch to Desktop 1=Meta+1
 Switch to Desktop 10=
 Switch to Desktop 11=
@@ -243,7 +244,7 @@ Walk Through Windows of Current Application Alternative=
 Walk Through Windows of Current Application Alternative (Reverse)=
 Window Above Other Windows=
 Window Below Other Windows=
-Window Close=Alt+F4; Meta+Q
+Window Close=Meta+Q; Alt+F4
 Window Fullscreen=
 Window Grow Horizontal=
 Window Grow Vertical=
@@ -293,7 +294,7 @@ Window to Desktop 16=
 Window to Desktop 17=
 Window to Desktop 18=
 Window to Desktop 19=
-Window to Desktop 2=Meta+@; Meta+"
+Window to Desktop 2=Meta+"; Meta+@
 Window to Desktop 20=
 Window to Desktop 3=Meta+#; Meta+·
 Window to Desktop 4=Meta+$
@@ -343,7 +344,7 @@ _launch=Ctrl+Alt+T
 
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
-_launch=Search; Alt+F2; Alt+Space
+_launch=Search; Alt+Space; Alt+F2
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
 _launch=Meta+.
